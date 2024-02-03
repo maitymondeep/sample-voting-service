@@ -16,7 +16,7 @@ spec:
         app: result
     spec:
       containers:
-        - image: dockersamples/examplevotingapp_result:latest
+        - image: result-app:1.0.0
           imagePullPolicy: Never
           name: result
           resources:
