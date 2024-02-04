@@ -14,6 +14,7 @@ spec:
     metadata:
       labels:
         app: worker
+        kuma.io/sidecar-injection: enabled
     spec:
       containers:
         - image: worker-app:1.0.0

@@ -14,6 +14,7 @@ spec:
     metadata:
       labels:
         app: result
+        kuma.io/sidecar-injection: enabled
     spec:
       containers:
         - image: result-app:1.0.0
